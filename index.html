@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" href="assets/coffee.png">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=1024">
 </head>
 
 <body>
@@ -463,6 +464,14 @@ Ensino Médio Técnico em Administração pelo Instituto J&F, com formação int
 
   </footer>
 
+
+<script>
+if (window.innerWidth <= 768) {
+  document.body.innerHTML = "<div style='font-size: 1.6rem;position:fixed;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;background:white;z-index:999999'><h4 style='margin:0;color:black'>Eu ainda não fiz esse site para celular :(</h4></div>";
+}
+</script>
+  
 <script src="script.js"></script>
+
 </body>
 </html>
